@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import ttk
 import customtkinter as ctk
-import openai
 from tkinter import Text, END
+import cohere  # Import Cohere
 
 class SkinConsultationPage(ctk.CTkFrame):
     def __init__(self, parent):
@@ -175,11 +175,8 @@ class SkinConsultationPage(ctk.CTkFrame):
 
     def get_ai_consultation(self, user_inputs):
         try:
-            # Replace this with your new API key from OpenAI
-            api_key = 'sk-your-new-api-key-here'  # Should start with sk-
-            
-            # Initialize the OpenAI client with the correct API key
-            openai.api_key = api_key
+            # Initialize the Cohere client with the correct API key
+            co = cohere.Client("W6jMlPJCOXkjsh1R71fayjnNrSyKEexCtjoyEXHT")
             
             prompt = f"""As a dermatologist, please provide skincare recommendations based on the following information:
             Age: {user_inputs['age']}
@@ -193,17 +190,16 @@ class SkinConsultationPage(ctk.CTkFrame):
             
             Please provide specific recommendations for skincare routine and products."""
 
-            response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                    {"role": "system", "content": "You are a helpful dermatologist providing skin care advice."},
-                    {"role": "user", "content": prompt}
-                ]
+            response = co.generate(
+                model="command-r-plus",
+                prompt=prompt,
+                max_tokens=300
             )
             
-            return response.choices[0].message.content
+            # Access the response content directly
+            return response.generations[0].text
         except Exception as e:
-            print(f"Error calling OpenAI API: {e}")
+            print(f"Error calling Cohere API: {e}")
             return "Sorry, there was an error getting the AI consultation. Please try again."
 
     def submit_consultation(self):
