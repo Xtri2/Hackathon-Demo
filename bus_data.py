@@ -10,7 +10,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1300
     },
     {
         "bus_number": "BA 2 KH 1234",
@@ -22,7 +23,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 2000
     },
     {
         "bus_number": "BAR 1 KH 2023",
@@ -34,7 +36,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1000
     },
     {
         "bus_number": "BA 1 KH 2023",
@@ -46,7 +49,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1400
     },
     {
         "bus_number": "BA 1 KH 2023",
@@ -58,7 +62,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1700
     },
     {
         "bus_number": "BA 1 KH 2023",
@@ -70,7 +75,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1000
     },
     {
         "bus_number": "BA 3 KH 5678",
@@ -82,8 +88,194 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.7
+        "rating": 3.7,
+        "price": 1000
     },
+    {
+        "bus_number": "BA 1 KH 9876",
+        "bus_model": "Volvo 9400",
+        "service_company": "Sajha Yatayat",
+        "driver_name": "Kamal Bhattarai",
+        "route": {"start": "Kathmandu", "end": "Pokhara"},
+        "seat_capacity": 40,
+        "ac": True,
+        "wifi": True,
+        "date": "2024-12-02",
+        "rating": "4.8",
+        "price": "2000"
+    },
+    {
+        "bus_number": "BA 2 KH 6543",
+        "bus_model": "Scania K410",
+        "service_company": "Dhaulagiri Yatayat",
+        "driver_name": "Nirajan Shrestha",
+        "route": {"start": "Kathmandu", "end": "Pokhara"},
+        "seat_capacity": 45,
+        "ac": True,
+        "wifi": True,
+        "date": "2024-12-02",
+        "rating": "3.9",
+        "price": "1100"
+    },
+    {
+        "bus_number": "GA 1 KH 3210",
+        "bus_model": "Volvo 7700",
+        "service_company": "Myagdi Yatayat",
+        "driver_name": "Bikram Tamang",
+        "route": {"start": "Kathmandu", "end": "Pokhara"},
+        "seat_capacity": 50,
+        "ac": True,
+        "wifi": False,
+        "date": "2024-12-02",
+        "rating": "3.4",
+        "price": "1200"
+    },
+    {
+        "bus_number": "GA 2 KH 7891",
+        "bus_model": "Scania K360",
+        "service_company": "SmartYatru",
+        "driver_name": "Manish Magar",
+        "route": {"start": "Kathmandu", "end": "Pokhara"},
+        "seat_capacity": 38,
+        "ac": True,
+        "wifi": True,
+        "date": "2024-12-02",
+        "rating": "3.8",
+        "price": "1300"
+    },
+    {
+        "bus_number": "BA 3 KH 1123",
+        "bus_model": "Mercedes-Benz Tourismo",
+        "service_company": "Travel Nepal Bus Service",
+        "driver_name": "Pradeep Rai",
+        "route": {"start": "Kathmandu", "end": "Pokhara"},
+        "seat_capacity": 42,
+        "ac": True,
+        "wifi": True,
+        "date": "2024-12-02",
+        "rating": "2.9",
+        "price": "950"
+    },
+{
+    "bus_number": "BA 8 KH 5432",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Keshav Gurung",
+    "route": {"start": "Kathmandu", "end": "Pokhara"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-03",
+    "rating": "3.7",
+    "price": "1100"
+},
+{
+    "bus_number": "GA 5 KH 2345",
+    "bus_model": "Mercedes-Benz Tourismo",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Prakash Rai",
+    "route": {"start": "Kathmandu", "end": "Pokhara"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": "3.4",
+    "price": "1800"
+},
+{
+    "bus_number": "GA 6 KH 7890",
+    "bus_model": "Volvo 7700",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Rajendra Tamang",
+    "route": {"start": "Kathmandu", "end": "Pokhara"},
+    "seat_capacity": 38,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": "3.3",
+    "price": "1700"
+},
+{
+    "bus_number": "BA 9 KH 6543",
+    "bus_model": "Scania K360",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Sunil Magar",
+    "route": {"start": "Kathmandu", "end": "Pokhara"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": "4.4",
+    "price": "2000"
+},
+{
+    "bus_number": "BA 10 KH 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Ramesh Shrestha",
+    "route": {"start": "Kathmandu", "end": "Pokhara"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": "4.6",
+    "price": "2000"
+},
+{
+    "bus_number": "GA 7 KH 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Kiran Gurung",
+    "route": {"start": "Kathmandu", "end": "Pokhara"},
+    "seat_capacity": 38,
+    "ac": False,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": "2.7",
+    "price": "900"
+},
+{
+    "bus_number": "BA 11 KH 4321",
+    "bus_model": "Mercedes-Benz Tourismo",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Bishal Tamang",
+    "route": {"start": "Kathmandu", "end": "Pokhara"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": "4.9",
+    "price": "3200"
+},
+{
+    "bus_number": "GA 8 KH 7890",
+    "bus_model": "Volvo 7700",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Suman Rai",
+    "route": {"start": "Kathmandu", "end": "Pokhara"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": "4.8",
+    "price": "2500"
+},
+{
+    "bus_number": "BA 12 KH 8765",
+    "bus_model": "Scania K360",
+    "service_company": "SmartYatru",
+    "driver_name": "Deepak Magar",
+    "route": {"start": "Kathmandu", "end": "Pokhara"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": "3.2",
+    "price": "1200"
+},
+
+
+
     # Pokhara to Kathmandu Route
     {
         "bus_number": "GA 1 KH 9012",
@@ -95,7 +287,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1000
     },
     {
         "bus_number": "GA 2 KH 3456",
@@ -107,8 +300,114 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.9
+        "rating": 4.9,
+        "price": 1000
     },
+    {
+    "bus_number": "BA 18 KH 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Ram Bahadur Magar",
+    "route": {"start": "Pokhara", "end": "Kathmandu"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": "4.9",
+    "price": "1300"
+},
+{
+    "bus_number": "GA 13 KH 4321",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Anil Thapa",
+    "route": {"start": "Pokhara", "end": "Kathmandu"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": "3.7",
+    "price": "1350"
+},
+{
+    "bus_number": "GA 12 KH 2345",
+    "bus_model": "Scania K410",
+    "service_company": "SmartYatru",
+    "driver_name": "Niraj Thapa",
+    "route": {"start": "Pokhara", "end": "Kathmandu"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": "4.7",
+    "price": "1500"
+},
+{
+    "bus_number": "BA 19 KH 6789",
+    "bus_model": "Volvo 7700",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Rohit Koirala",
+    "route": {"start": "Pokhara", "end": "Kathmandu"},
+    "seat_capacity": 38,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-03",
+    "rating": "4.5",
+    "price": "1450"
+},
+{
+    "bus_number": "BA 20 KH 8765",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Suman Magar",
+    "route": {"start": "Pokhara", "end": "Kathmandu"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": "4.9",
+    "price": "1600"
+},{
+    "bus_number": "BA 16 KH 5678",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Arjun Shrestha",
+    "route": {"start": "Pokhara", "end": "Kathmandu"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": "4.9",
+    "price": "1700"
+},
+{
+    "bus_number": "GA 11 KH 3456",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Purna Gurung",
+    "route": {"start": "Pokhara", "end": "Kathmandu"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": "4.6",
+    "price": "1800"
+},
+{
+    "bus_number": "GA 14 KH 6789",
+    "bus_model": "Volvo 7700",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Ravi Karki",
+    "route": {"start": "Pokhara", "end": "Kathmandu"},
+    "seat_capacity": 38,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": "4.5",
+    "price": "1650"
+},
+
+
     # Kathmandu to Biratnagar Route
     {
         "bus_number": "BA 4 KH 7890",
@@ -118,9 +417,10 @@ bus_data = [
         "route": {"start": "Kathmandu", "end": "Biratnagar"},
         "seat_capacity": 38,
         "ac": True,
-        "wifi": False,
+        "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.3
+        "rating": 4.9,
+        "price": 2200
     },
     {
         "bus_number": "BA 5 KH 1111",
@@ -132,8 +432,116 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.7
+        "rating": 3.7,
+        "price": 1000
     },
+    {
+    "bus_number": "BA 1 KH 8765",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Bikash Tamang",
+    "route": {"start": "Kathmandu", "end": "Biratnagar"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": "",
+    "price": "1600"
+},
+{
+    "bus_number": "GA 7 KH 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Subash Gurung",
+    "route": {"start": "Kathmandu", "end": "Biratnagar"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": "",
+    "price": "1400"
+},
+{
+    "bus_number": "BA 3 KH 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Ramesh Rai",
+    "route": {"start": "Kathmandu", "end": "Biratnagar"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": "",
+    "price": "1500"
+},
+{
+    "bus_number": "GA 8 KH 2345",
+    "bus_model": "Volvo 7700",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Suman Shrestha",
+    "route": {"start": "Kathmandu", "end": "Biratnagar"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": "",
+    "price": "1700"
+},
+{
+    "bus_number": "BA 5 KH 3456",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Prakash Karki",
+    "route": {"start": "Kathmandu", "end": "Biratnagar"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-03",
+    "rating": "",
+    "price": "1450"
+},
+{
+    "bus_number": "BA 2 KH 4567",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Manoj Koirala",
+    "route": {"start": "Kathmandu", "end": "Biratnagar"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": "",
+    "price": "1800"
+},
+{
+    "bus_number": "GA 6 KH 9876",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Bishal Bista",
+    "route": {"start": "Kathmandu", "end": "Biratnagar"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": "",
+    "price": "1550"
+},
+{
+    "bus_number": "BA 9 KH 8765",
+    "bus_model": "Volvo 7700",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Sanjay Chaulagain",
+    "route": {"start": "Kathmandu", "end": "Biratnagar"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": "",
+    "price": "1600"
+},
+
+
+    
     # Biratnagar to Kathmandu Route
     {
         "bus_number": "KO 1 KH 2222",
@@ -145,7 +553,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 1900
     },
     {
         "bus_number": "KO 2 KH 3333",
@@ -157,8 +566,116 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1900
     },
+    {
+    "bus_number": "BA 4 KH 2345",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Rajan Gurung",
+    "route": {"start": "Biratnagar", "end": "Kathmandu"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.7,
+    "price": "1600"
+},
+{
+    "bus_number": "GA 9 KH 5678",
+    "bus_model": "Volvo 9400",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Prakash Koirala",
+    "route": {"start": "Biratnagar", "end": "Kathmandu"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": 4.2,
+    "price": "1400"
+},
+{
+    "bus_number": "GA 10 KH 1234",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Dinesh Thapa",
+    "route": {"start": "Biratnagar", "end": "Kathmandu"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.8,
+    "price": "1500"
+},
+{
+    "bus_number": "BA 6 KH 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Rohit Rai",
+    "route": {"start": "Biratnagar", "end": "Kathmandu"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-03",
+    "rating": 4.3,
+    "price": "1450"
+},
+{
+    "bus_number": "BA 8 KH 3456",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Kiran Shrestha",
+    "route": {"start": "Biratnagar", "end": "Kathmandu"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.6,
+    "price": "1700"
+},
+{
+    "bus_number": "BA 11 KH 6789",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Ramesh Koirala",
+    "route": {"start": "Biratnagar", "end": "Kathmandu"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.9,
+    "price": "1800"
+},
+{
+    "bus_number": "GA 7 KH 1234",
+    "bus_model": "Scania K410",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Bikram Thapa",
+    "route": {"start": "Biratnagar", "end": "Kathmandu"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": 4.4,
+    "price": "1550"
+},
+{
+    "bus_number": "BA 10 KH 9876",
+    "bus_model": "Volvo 7700",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Sanjay Gurung",
+    "route": {"start": "Biratnagar", "end": "Kathmandu"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.8,
+    "price": "1650"
+},
+
+    
+        
     # Kathmandu to Lumbini Route
     {
         "bus_number": "BA 6 KH 4444",
@@ -170,7 +687,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.4
+        "rating": 4.4,
+        "price": 2200
     },
     {
         "bus_number": "BA 7 KH 5555",
@@ -182,8 +700,114 @@ bus_data = [
         "ac": False,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.0
+        "rating": 4.0,
+        "price": 2900
     },
+    {
+    "bus_number": "BA 4 KH 2345",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Rajan Gurung",
+    "route": {"start": "Kathmandu", "end": "Lumbini"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.7,
+    "price": "2100"
+},
+{
+    "bus_number": "GA 9 KH 5678",
+    "bus_model": "Volvo 9400",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Prakash Koirala",
+    "route": {"start": "Kathmandu", "end": "Lumbini"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": 4.2,
+    "price": "1900"
+},
+{
+    "bus_number": "GA 10 KH 1234",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Dinesh Thapa",
+    "route": {"start": "Kathmandu", "end": "Lumbini"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.8,
+    "price": "2000"
+},
+{
+    "bus_number": "BA 6 KH 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Rohit Rai",
+    "route": {"start": "Kathmandu", "end": "Lumbini"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-03",
+    "rating": 4.3,
+    "price": "1950"
+},
+{
+    "bus_number": "BA 8 KH 3456",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Kiran Shrestha",
+    "route": {"start": "Kathmandu", "end": "Lumbini"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.6,
+    "price": "2200"
+},
+{
+    "bus_number": "BA 11 KH 6789",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Ramesh Koirala",
+    "route": {"start": "Kathmandu", "end": "Lumbini"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.9,
+    "price": "2300"
+},
+{
+    "bus_number": "GA 7 KH 1234",
+    "bus_model": "Scania K410",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Bikram Thapa",
+    "route": {"start": "Kathmandu", "end": "Lumbini"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": 4.4,
+    "price": "2050"
+},
+{
+    "bus_number": "BA 10 KH 9876",
+    "bus_model": "Volvo 7700",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Sanjay Gurung",
+    "route": {"start": "Kathmandu", "end": "Lumbini"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.8,
+    "price": "2150"
+},
+
     # Lumbini to Kathmandu Route
     {
         "bus_number": "NA 1 KH 6666",
@@ -195,7 +819,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 1900
     },
     {
         "bus_number": "NA 2 KH 7777",
@@ -207,8 +832,114 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1900
     },
+    {
+    "bus_number": "BA 4 KH 2345",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Rajan Gurung",
+    "route": {"start": "Lumbini", "end": "Kathmandu"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.7,
+    "price": "2100"
+},
+{
+    "bus_number": "GA 9 KH 5678",
+    "bus_model": "Volvo 9400",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Prakash Koirala",
+    "route": {"start": "Lumbini", "end": "Kathmandu"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": 4.2,
+    "price": "1900"
+},
+{
+    "bus_number": "GA 10 KH 1234",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Dinesh Thapa",
+    "route": {"start": "Lumbini", "end": "Kathmandu"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.8,
+    "price": "2000"
+},
+{
+    "bus_number": "BA 6 KH 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Rohit Rai",
+    "route": {"start": "Lumbini", "end": "Kathmandu"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-03",
+    "rating": 4.3,
+    "price": "1950"
+},
+{
+    "bus_number": "BA 8 KH 3456",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Kiran Shrestha",
+    "route": {"start": "Lumbini", "end": "Kathmandu"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.6,
+    "price": "2200"
+},
+{
+    "bus_number": "BA 11 KH 6789",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Ramesh Koirala",
+    "route": {"start": "Lumbini", "end": "Kathmandu"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.9,
+    "price": "2300"
+},
+{
+    "bus_number": "GA 7 KH 1234",
+    "bus_model": "Scania K410",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Bikram Thapa",
+    "route": {"start": "Lumbini", "end": "Kathmandu"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": 4.4,
+    "price": "2050"
+},
+{
+    "bus_number": "BA 10 KH 9876",
+    "bus_model": "Volvo 7700",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Sanjay Gurung",
+    "route": {"start": "Lumbini", "end": "Kathmandu"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.8,
+    "price": "2150"
+},
+
     # Pokhara to Lumbini Route
     {
         "bus_number": "GA 3 KH 8888",
@@ -220,7 +951,8 @@ bus_data = [
         "ac": False,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.1
+        "rating": 4.1,
+        "price": 2900
     },
     {
         "bus_number": "GA 4 KH 9999",
@@ -232,8 +964,114 @@ bus_data = [
         "ac": True,
         "wifi": False,
         "date": "2024-12-02",
-        "rating": 4.3
+        "rating": 4.3,
+        "price": 2900
     },
+    {
+    "bus_number": "BA 5 KH 6789",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Bikash Gurung",
+    "route": {"start": "Pokhara", "end": "Lumbini"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.7,
+    "price": "2000"
+},
+{
+    "bus_number": "GA 6 KH 1234",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Shankar Rai",
+    "route": {"start": "Pokhara", "end": "Lumbini"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": 4.2,
+    "price": "1850"
+},
+{
+    "bus_number": "GA 2 KH 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Ram Bahadur Koirala",
+    "route": {"start": "Pokhara", "end": "Lumbini"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.8,
+    "price": "2100"
+},
+{
+    "bus_number": "BA 3 KH 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Bishal Tamang",
+    "route": {"start": "Pokhara", "end": "Lumbini"},
+    "seat_capacity": 44,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-03",
+    "rating": 4.3,
+    "price": "1950"
+},
+{
+    "bus_number": "BA 7 KH 9876",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Subash Koirala",
+    "route": {"start": "Pokhara", "end": "Lumbini"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "2200"
+},
+{
+    "bus_number": "GA 8 KH 2345",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Sushil Thapa",
+    "route": {"start": "Pokhara", "end": "Lumbini"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.8,
+    "price": "2150"
+},
+{
+    "bus_number": "BA 12 KH 5678",
+    "bus_model": "Volvo 7700",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Krishna Magar",
+    "route": {"start": "Pokhara", "end": "Lumbini"},
+    "seat_capacity": 44,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": 4.4,
+    "price": "2050"
+},
+{
+    "bus_number": "GA 10 KH 1234",
+    "bus_model": "Scania K360",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Dhanraj Gurung",
+    "route": {"start": "Pokhara", "end": "Lumbini"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 5.0,
+    "price": "2300"
+},
+
     # Lumbini to Pokhara Route
     {
         "bus_number": "NA 3 KH 1212",
@@ -245,7 +1083,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1900
     },
     {
         "bus_number": "NA 4 KH 3434",
@@ -257,8 +1096,114 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.7
+        "rating": 4.7,
+        "price": 1900
     },
+    {
+    "bus_number": "GA 5 KH 3456",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Suman Koirala",
+    "route": {"start": "Lumbini", "end": "Pokhara"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.7,
+    "price": "2500"
+},
+{
+    "bus_number": "BA 9 KH 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Dipesh Thapa",
+    "route": {"start": "Lumbini", "end": "Pokhara"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": 4.3,
+    "price": "2200"
+},
+{
+    "bus_number": "GA 3 KH 2345",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Rajendra Rai",
+    "route": {"start": "Lumbini", "end": "Pokhara"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "2600"
+},
+{
+    "bus_number": "BA 4 KH 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "SmartYatru",
+    "driver_name": "Binod Gurung",
+    "route": {"start": "Lumbini", "end": "Pokhara"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-03",
+    "rating": 4.5,
+    "price": "2400"
+},
+{
+    "bus_number": "GA 6 KH 9876",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Bikram Thapa",
+    "route": {"start": "Lumbini", "end": "Pokhara"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 5.0,
+    "price": "2500"
+},
+{
+    "bus_number": "GA 7 KH 3456",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Rohit Koirala",
+    "route": {"start": "Lumbini", "end": "Pokhara"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.8,
+    "price": "2300"
+},
+{
+    "bus_number": "BA 10 KH 7890",
+    "bus_model": "Volvo 9400",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Suresh Rai",
+    "route": {"start": "Lumbini", "end": "Pokhara"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": 4.2,
+    "price": "2100"
+},
+{
+    "bus_number": "GA 2 KH 4567",
+    "bus_model": "Scania K360",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Hari Bahadur Magar",
+    "route": {"start": "Lumbini", "end": "Pokhara"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.9,
+    "price": "2400"
+},
+
     # Biratnagar to Sikkim Route
     {
         "bus_number": "KO 3 KH 5656",
@@ -270,7 +1215,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.4
+        "rating": 4.4,
+        "price": 2200
     },
     {
         "bus_number": "KO 4 KH 7878",
@@ -282,8 +1228,114 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.8
+        "rating": 3.8,
+        "price": 1000
     },
+    {
+    "bus_number": "GA 9 KH 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Sujan Koirala",
+    "route": {"start": "Biratnagar", "end": "Sikkim"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.7,
+    "price": "2600"
+},
+{
+    "bus_number": "BA 10 KH 2345",
+    "bus_model": "Scania K410",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Bishal Gurung",
+    "route": {"start": "Biratnagar", "end": "Sikkim"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": 4.3,
+    "price": "2200"
+},
+{
+    "bus_number": "BA 12 KH 3456",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Rajendra Thapa",
+    "route": {"start": "Biratnagar", "end": "Sikkim"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "2700"
+},
+{
+    "bus_number": "GA 14 KH 4567",
+    "bus_model": "Volvo 9400",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Kamal Rai",
+    "route": {"start": "Biratnagar", "end": "Sikkim"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-03",
+    "rating": 4.2,
+    "price": "2500"
+},
+{
+    "bus_number": "BA 15 KH 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Bikram Thapa",
+    "route": {"start": "Biratnagar", "end": "Sikkim"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 5.0,
+    "price": "2600"
+},
+{
+    "bus_number": "GA 17 KH 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Sushil Rai",
+    "route": {"start": "Biratnagar", "end": "Sikkim"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.8,
+    "price": "2550"
+},
+{
+    "bus_number": "BA 20 KH 6789",
+    "bus_model": "Scania K360",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Pashupati Magar",
+    "route": {"start": "Biratnagar", "end": "Sikkim"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": 4.2,
+    "price": "2400"
+},
+{
+    "bus_number": "GA 22 KH 7890",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Rohit Koirala",
+    "route": {"start": "Biratnagar", "end": "Sikkim"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.9,
+    "price": "2700"
+},
+
     # Sikkim to Biratnagar Route
     {
         "bus_number": "SK 1 KH 9090",
@@ -295,7 +1347,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 1900
     },
     {
         "bus_number": "SK 2 KH 1313",
@@ -307,8 +1360,114 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.7
+        "rating": 4.7,
+        "price": 1000
     },
+    {
+    "bus_number": "BA 10 KH 3456",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Bikram Thapa",
+    "route": {"start": "Sikkim", "end": "Biratnagar"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.8,
+    "price": "2600"
+},
+{
+    "bus_number": "GA 12 KH 5678",
+    "bus_model": "Scania K410",
+    "service_company": "SmartYatru",
+    "driver_name": "Bishal Magar",
+    "route": {"start": "Sikkim", "end": "Biratnagar"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": 4.3,
+    "price": "2300"
+},
+{
+    "bus_number": "BA 15 KH 7890",
+    "bus_model": "Scania K360",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Rajendra Rai",
+    "route": {"start": "Sikkim", "end": "Biratnagar"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "2700"
+},
+{
+    "bus_number": "GA 16 KH 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Kamal Koirala",
+    "route": {"start": "Sikkim", "end": "Biratnagar"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-03",
+    "rating": 4.4,
+    "price": "2500"
+},
+{
+    "bus_number": "BA 18 KH 3456",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Rohit Magar",
+    "route": {"start": "Sikkim", "end": "Biratnagar"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 5.0,
+    "price": "2600"
+},
+{
+    "bus_number": "GA 19 KH 4567",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Suresh Rai",
+    "route": {"start": "Sikkim", "end": "Biratnagar"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.8,
+    "price": "2550"
+},
+{
+    "bus_number": "BA 21 KH 6789",
+    "bus_model": "Scania K410",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Sujan Gurung",
+    "route": {"start": "Sikkim", "end": "Biratnagar"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": 4.2,
+    "price": "2400"
+},
+{
+    "bus_number": "GA 20 KH 7890",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Suman Thapa",
+    "route": {"start": "Sikkim", "end": "Biratnagar"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.9,
+    "price": "2700"
+},
+
     # Kathmandu to Darjeeling Route
     {
         "bus_number": "BA 8 KH 2424",
@@ -320,7 +1479,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.9
+        "rating": 4.9,
+        "price": 1000
     },
     {
         "bus_number": "BA 9 KH 3535",
@@ -332,8 +1492,75 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1000
     },
+    {
+    "bus_number": "BA 12 KH 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Sujan Rai",
+    "route": {"start": "Kathmandu", "end": "Darjeeling"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.8,
+    "price": "3500"
+},
+{
+    "bus_number": "GA 11 KH 5678",
+    "bus_model": "Scania K360",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Bishal Thapa",
+    "route": {"start": "Kathmandu", "end": "Darjeeling"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": 4.5,
+    "price": "3200"
+},
+{
+    "bus_number": "GA 15 KH 2345",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Rajendra Magar",
+    "route": {"start": "Kathmandu", "end": "Darjeeling"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "3600"
+},
+{
+    "bus_number": "BA 16 KH 3456",
+    "bus_model": "Scania K410",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Bikram Thapa",
+    "route": {"start": "Kathmandu", "end": "Darjeeling"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.7,
+    "price": "3400"
+},
+{
+    "bus_number": "GA 13 KH 8901",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Bishal Rai",
+    "route": {"start": "Kathmandu", "end": "Darjeeling"},
+    "seat_capacity": 38,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.9,
+    "price": "3500"
+},
+
     # Darjeeling to Kathmandu Route
     {
         "bus_number": "WB 1 KH 4646",
@@ -345,7 +1572,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1000
     },
     {
         "bus_number": "WB 2 KH 5757",
@@ -357,8 +1585,36 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.7
+        "rating": 4.7,
+        "price": 1000
     },
+    {
+    "bus_number": "BA 12 KH 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Sujan Rai",
+    "route": {"start": "Darjeeling", "end": "Kathmandu"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.8,
+    "price": "3500"
+},
+{
+    "bus_number": "GA 11 KH 5678",
+    "bus_model": "Scania K360",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Bishal Thapa",
+    "route": {"start": "Darjeeling", "end": "Kathmandu"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": 4.5,
+    "price": "3200"
+},
+
     # Pokhara to Darjeeling Route
     {
         "bus_number": "GA 5 KH 6868",
@@ -370,7 +1626,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1000
     },
     {
         "bus_number": "GA 6 KH 7979",
@@ -382,8 +1639,49 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 1000
     },
+    {
+    "bus_number": "GA 15 KH 2345",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Rajendra Magar",
+    "route": {"start": "Darjeeling", "end": "Kathmandu"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "3600"
+},
+{
+    "bus_number": "BA 16 KH 3456",
+    "bus_model": "Scania K410",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Bikram Thapa",
+    "route": {"start": "Darjeeling", "end": "Kathmandu"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.7,
+    "price": "3400"
+},
+{
+    "bus_number": "GA 13 KH 8901",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Bishal Rai",
+    "route": {"start": "Darjeeling", "end": "Kathmandu"},
+    "seat_capacity": 38,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.9,
+    "price": "3500"
+},
+
     # Darjeeling to Pokhara Route
     {
         "bus_number": "WB 3 KH 8080",
@@ -395,7 +1693,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.7
+        "rating": 4.7,
+        "price": 1000
     },
     {
         "bus_number": "WB 4 KH 9191",
@@ -407,8 +1706,75 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1000
     },
+    {
+    "bus_number": "BA 19 KH 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Ramesh Bhandari",
+    "route": {"start": "Darjeeling", "end": "Pokhara"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.8,
+    "price": "3800"
+},
+{
+    "bus_number": "GA 20 KH 5678",
+    "bus_model": "Scania K360",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Bikash Gurung",
+    "route": {"start": "Darjeeling", "end": "Pokhara"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": 4.4,
+    "price": "3500"
+},
+{
+    "bus_number": "BA 21 KH 7890",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Hari Prasad Thapa",
+    "route": {"start": "Darjeeling", "end": "Pokhara"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "4000"
+},
+{
+    "bus_number": "BA 22 KH 8901",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Dipendra Sharma",
+    "route": {"start": "Darjeeling", "end": "Pokhara"},
+    "seat_capacity": 43,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.7,
+    "price": "3700"
+},
+{
+    "bus_number": "GA 23 KH 4567",
+    "bus_model": "Scania K360",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Pradeep Adhikari",
+    "route": {"start": "Darjeeling", "end": "Pokhara"},
+    "seat_capacity": 46,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.6,
+    "price": "3600"
+},
+
     # Lumbini to Sikkim Route
     {
         "bus_number": "NA 5 KH 1414",
@@ -420,7 +1786,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 1000
     },
     {
         "bus_number": "NA 6 KH 2525",
@@ -432,8 +1799,10 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.4
+        "rating": 4.4,
+        "price": 1000
     },
+    
     # Sikkim to Lumbini Route
     {
         "bus_number": "SK 3 KH 3636",
@@ -445,7 +1814,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1000
     },
     {
         "bus_number": "SK 4 KH 4747",
@@ -457,8 +1827,549 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 1000
     },
+    {
+    "bus_number": "BA 25 KH 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Anil Rajbhandari",
+    "route": {"start": "Lumbini", "end": "Sikkim"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.9,
+    "price": "4900"
+},
+{
+    "bus_number": "GA 26 KH 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Raju Tamang",
+    "route": {"start": "Lumbini", "end": "Sikkim"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": 4.5,
+    "price": "4200"
+},
+{
+    "bus_number": "BA 27 KH 7890",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Santosh Lama",
+    "route": {"start": "Lumbini", "end": "Sikkim"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "5000"
+},
+{
+    "bus_number": "BA 27 KH 7890",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Santosh Lama",
+    "route": {"start": "Lumbini", "end": "Sikkim"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "5000"
+},
+{
+    "bus_number": "GA 30 KH 2345",
+    "bus_model": "Scania K360",
+    "service_company": "SmartYatru",
+    "driver_name": "Bikram Gurung",
+    "route": {"start": "Lumbini", "end": "Sikkim"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-03",
+    "rating": 4.3,
+    "price": "4600"
+},
+{
+    "bus_number": "BA 28 KH 9012",
+    "bus_model": "Scania K360",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Manoj Rai",
+    "route": {"start": "Lumbini", "end": "Sikkim"},
+    "seat_capacity": 43,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.6,
+    "price": "4800"
+},
+{
+    "bus_number": "GA 29 KH 3456",
+    "bus_model": "Scania K410",
+    "service_company": "SmartYatru",
+    "driver_name": "Bishal Pandey",
+    "route": {"start": "Lumbini", "end": "Sikkim"},
+    "seat_capacity": 44,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.4,
+    "price": "4600"
+},
+
+    # Kathmandu to Sikkim
+{
+    "bus_number": "BA 45 KH 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Sushil Thapa",
+    "route": {"start": "Kathmandu", "end": "Sikkim"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.9,
+    "price": "3900"
+},
+{
+    "bus_number": "GA 46 KH 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Bimal Gurung",
+    "route": {"start": "Kathmandu", "end": "Sikkim"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.7,
+    "price": "3700"
+},
+{
+    "bus_number": "BA 50 KH 7890",
+    "bus_model": "Scania K360",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Pashupati Thapa",
+    "route": {"start": "Kathmandu", "end": "Sikkim"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-02",
+    "rating": 4.5,
+    "price": "3800"
+},
+{
+    "bus_number": "BA 47 KH 8901",
+    "bus_model": "Scania K360",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Ramesh Rai",
+    "route": {"start": "Kathmandu", "end": "Sikkim"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.8,
+    "price": "3800"
+},
+{
+    "bus_number": "GA 48 KH 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "SmartYatru",
+    "driver_name": "Amit Shrestha",
+    "route": {"start": "Kathmandu", "end": "Sikkim"},
+    "seat_capacity": 40,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.6,
+    "price": "3500"
+},
+{
+    "bus_number": "BA 51 KH 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Bikash Koirala",
+    "route": {"start": "Kathmandu", "end": "Sikkim"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.7,
+    "price": "3600"
+},
+{
+    "bus_number": "BA 49 KH 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Hari Bahadur Tamang",
+    "route": {"start": "Kathmandu", "end": "Sikkim"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.9,
+    "price": "4000"
+},
+{
+    "bus_number": "GA 52 KH 7890",
+    "bus_model": "Scania K360",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Dipendra Rathi",
+    "route": {"start": "Kathmandu", "end": "Sikkim"},
+    "seat_capacity": 42,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.8,
+    "price": "3900"
+},
+    # Pokhara to Biratnagar
+    {
+    "bus_number": "BA 60 PK 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Ram Bahadur Magar",
+    "route": {"start": "Pokhara", "end": "Biratnagar"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.9,
+    "price": "6200"
+},
+{
+    "bus_number": "GA 61 PK 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Suraj Gurung",
+    "route": {"start": "Pokhara", "end": "Biratnagar"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.7,
+    "price": "6000"
+},
+{
+    "bus_number": "BA 62 PK 7890",
+    "bus_model": "Scania K360",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Anil Adhikari",
+    "route": {"start": "Pokhara", "end": "Biratnagar"},
+    "seat_capacity": 48,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.6,
+    "price": "5900"
+},
+{
+    "bus_number": "BA 63 PK 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "SmartYatru",
+    "driver_name": "Bikram Thapa",
+    "route": {"start": "Pokhara", "end": "Biratnagar"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.8,
+    "price": "6100"
+},
+{
+    "bus_number": "GA 64 PK 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Nirakar Koirala",
+    "route": {"start": "Pokhara", "end": "Biratnagar"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "6500"
+},
+{
+    "bus_number": "BA 65 PK 6789",
+    "bus_model": "Scania K360",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Suman Rathi",
+    "route": {"start": "Pokhara", "end": "Biratnagar"},
+    "seat_capacity": 48,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "6400"
+},
+{
+    "bus_number": "BA 66 PK 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Rajendra Shrestha",
+    "route": {"start": "Pokhara", "end": "Biratnagar"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.6,
+    "price": "5800"
+},
+{
+    "bus_number": "GA 67 PK 7890",
+    "bus_model": "Scania K410",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Jeevan Khatri",
+    "route": {"start": "Pokhara", "end": "Biratnagar"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.7,
+    "price": "6000"
+},
+    #Pokhara to Darjeeling
+    {
+    "bus_number": "BA 80 PK 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Bishal Koirala",
+    "route": {"start": "Pokhara", "end": "Darjeeling"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.9,
+    "price": "4900"
+},
+{
+    "bus_number": "GA 81 PK 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Rajan Rai",
+    "route": {"start": "Pokhara", "end": "Darjeeling"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.8,
+    "price": "4800"
+},
+{
+    "bus_number": "BA 82 PK 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "SmartYatru",
+    "driver_name": "Ravi Sharma",
+    "route": {"start": "Pokhara", "end": "Darjeeling"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.7,
+    "price": "4600"
+},
+{
+    "bus_number": "GA 83 PK 6789",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Manoj Subedi",
+    "route": {"start": "Pokhara", "end": "Darjeeling"},
+    "seat_capacity": 48,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "5000"
+},
+{
+    "bus_number": "BA 84 PK 7890",
+    "bus_model": "Scania K360",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Pradeep Thapa",
+    "route": {"start": "Pokhara", "end": "Darjeeling"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.6,
+    "price": "3700"
+},
+{
+    "bus_number": "GA 85 PK 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Subash Adhikari",
+    "route": {"start": "Pokhara", "end": "Darjeeling"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.8,
+    "price": "4600"
+},
+    # Biratnagar to Lumbini
+    {
+    "bus_number": "BA 90 BN 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Sushil Yadav",
+    "route": {"start": "Biratnagar", "end": "Lumbini"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.9,
+    "price": "3300"
+},
+{
+    "bus_number": "GA 91 BN 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Dinesh Adhikari",
+    "route": {"start": "Biratnagar", "end": "Lumbini"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.7,
+    "price": "3200"
+},
+{
+    "bus_number": "BA 96 BN 3456",
+    "bus_model": "Scania K410",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Lalit Thapa",
+    "route": {"start": "Biratnagar", "end": "Lumbini"},
+    "seat_capacity": 48,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.8,
+    "price": "3000"
+},
+{
+    "bus_number": "BA 92 BN 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Bipin Kumar",
+    "route": {"start": "Biratnagar", "end": "Lumbini"},
+    "seat_capacity": 48,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.8,
+    "price": "3100"
+},
+{
+    "bus_number": "GA 93 BN 6789",
+    "bus_model": "Scania K410",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Tariq Rai",
+    "route": {"start": "Biratnagar", "end": "Lumbini"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "3400"
+},
+{
+    "bus_number": "BA 94 BN 7890",
+    "bus_model": "Scania K360",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Pashupati Bhandari",
+    "route": {"start": "Biratnagar", "end": "Lumbini"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": 3.8,
+    "price": "2900"
+},
+{
+    "bus_number": "GA 95 BN 2345",
+    "bus_model": "Volvo 9400",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Prakash Gurung",
+    "route": {"start": "Biratnagar", "end": "Lumbini"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-04",
+    "rating": 4.7,
+    "price": "3200"
+},
+    #Lumbini to Biratnagar
+    {
+    "bus_number": "BA 91 LB 1234",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Sanjay Gurung",
+    "route": {"start": "Lumbini", "end": "Biratnagar"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.9,
+    "price": "3700"
+},
+{
+    "bus_number": "GA 92 LB 5678",
+    "bus_model": "Scania K410",
+    "service_company": "Dhaulagiri Yatayat",
+    "driver_name": "Hari Koirala",
+    "route": {"start": "Lumbini", "end": "Biratnagar"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-02",
+    "rating": 4.8,
+    "price": "3500"
+},
+{
+    "bus_number": "BA 93 LB 2345",
+    "bus_model": "Scania K360",
+    "service_company": "Myagdi Yatayat",
+    "driver_name": "Suman Sharma",
+    "route": {"start": "Lumbini", "end": "Biratnagar"},
+    "seat_capacity": 48,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.7,
+    "price": "3200"
+},
+{
+    "bus_number": "GA 94 LB 6789",
+    "bus_model": "Volvo 9400",
+    "service_company": "Sajha Yatayat",
+    "driver_name": "Manoj Poudel",
+    "route": {"start": "Lumbini", "end": "Biratnagar"},
+    "seat_capacity": 45,
+    "ac": True,
+    "wifi": True,
+    "date": "2024-12-03",
+    "rating": 4.9,
+    "price": "3800"
+},
+{
+    "bus_number": "BA 94 LB 7890",
+    "bus_model": "Scania K410",
+    "service_company": "Travel Nepal Bus Service",
+    "driver_name": "Prakash Adhikari",
+    "route": {"start": "Lumbini", "end": "Biratnagar"},
+    "seat_capacity": 50,
+    "ac": True,
+    "wifi": False,
+    "date": "2024-12-04",
+    "rating": 3.6,
+    "price": "3400"
+},
+
     # Additional buses for popular routes
     {
         "bus_number": "BA 10 KH 5858",
@@ -470,7 +2381,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-03",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1300
     },
     {
         "bus_number": "BA 11 KH 6969",
@@ -482,7 +2394,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-03",
-        "rating": 4.7
+        "rating": 4.7,
+        "price": 2000
     },
     {
         "bus_number": "GA 7 KH 7070",
@@ -494,7 +2407,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-03",
-        "rating": 4.9
+        "rating": 4.9,
+        "price": 2300
     },
     {
         "bus_number": "KO 5 KH 8181",
@@ -506,7 +2420,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-03",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 2200
     }
 ]
 
