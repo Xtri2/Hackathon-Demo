@@ -10,7 +10,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1000
     },
     {
         "bus_number": "BA 2 KH 1234",
@@ -22,7 +23,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 2000
     },
     {
         "bus_number": "BAR 1 KH 2023",
@@ -34,7 +36,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1000
     },
     {
         "bus_number": "BA 1 KH 2023",
@@ -46,7 +49,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1400
     },
     {
         "bus_number": "BA 1 KH 2023",
@@ -58,7 +62,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1000
     },
     {
         "bus_number": "BA 1 KH 2023",
@@ -70,7 +75,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1000
     },
     {
         "bus_number": "BA 3 KH 5678",
@@ -82,7 +88,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.7
+        "rating": 4.7,
+        "price": 1000
     },
     # Pokhara to Kathmandu Route
     {
@@ -95,7 +102,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1000
     },
     {
         "bus_number": "GA 2 KH 3456",
@@ -107,7 +115,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.9
+        "rating": 4.9,
+        "price": 1000
     },
     # Kathmandu to Biratnagar Route
     {
@@ -120,7 +129,8 @@ bus_data = [
         "ac": True,
         "wifi": False,
         "date": "2024-12-01",
-        "rating": 4.3
+        "rating": 4.9,
+        "price": 2200
     },
     {
         "bus_number": "BA 5 KH 1111",
@@ -132,7 +142,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.7
+        "rating": 3.7,
+        "price": 1000
     },
     # Biratnagar to Kathmandu Route
     {
@@ -145,7 +156,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 1900
     },
     {
         "bus_number": "KO 2 KH 3333",
@@ -157,7 +169,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1900
     },
     # Kathmandu to Lumbini Route
     {
@@ -170,7 +183,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.4
+        "rating": 4.4,
+        "price": 2200
     },
     {
         "bus_number": "BA 7 KH 5555",
@@ -182,7 +196,8 @@ bus_data = [
         "ac": False,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.0
+        "rating": 4.0,
+        "price": 2900
     },
     # Lumbini to Kathmandu Route
     {
@@ -195,7 +210,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 1900
     },
     {
         "bus_number": "NA 2 KH 7777",
@@ -207,7 +223,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1900
     },
     # Pokhara to Lumbini Route
     {
@@ -220,7 +237,8 @@ bus_data = [
         "ac": False,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.1
+        "rating": 4.1,
+        "price": 2900
     },
     {
         "bus_number": "GA 4 KH 9999",
@@ -232,7 +250,8 @@ bus_data = [
         "ac": True,
         "wifi": False,
         "date": "2024-12-02",
-        "rating": 4.3
+        "rating": 4.3,
+        "price": 2900
     },
     # Lumbini to Pokhara Route
     {
@@ -245,7 +264,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1900
     },
     {
         "bus_number": "NA 4 KH 3434",
@@ -257,7 +277,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.7
+        "rating": 4.7,
+        "price": 1900
     },
     # Biratnagar to Sikkim Route
     {
@@ -270,7 +291,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.4
+        "rating": 4.4,
+        "price": 2200
     },
     {
         "bus_number": "KO 4 KH 7878",
@@ -282,7 +304,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.8
+        "rating": 3.8,
+        "price": 1000
     },
     # Sikkim to Biratnagar Route
     {
@@ -295,7 +318,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 1900
     },
     {
         "bus_number": "SK 2 KH 1313",
@@ -307,7 +331,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.7
+        "rating": 4.7,
+        "price": 1000
     },
     # Kathmandu to Darjeeling Route
     {
@@ -320,7 +345,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.9
+        "rating": 4.9,
+        "price": 1000
     },
     {
         "bus_number": "BA 9 KH 3535",
@@ -332,7 +358,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1000
     },
     # Darjeeling to Kathmandu Route
     {
@@ -345,7 +372,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1000
     },
     {
         "bus_number": "WB 2 KH 5757",
@@ -357,7 +385,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.7
+        "rating": 4.7,
+        "price": 1000
     },
     # Pokhara to Darjeeling Route
     {
@@ -370,7 +399,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1000
     },
     {
         "bus_number": "GA 6 KH 7979",
@@ -382,7 +412,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 1000
     },
     # Darjeeling to Pokhara Route
     {
@@ -395,7 +426,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.7
+        "rating": 4.7,
+        "price": 1000
     },
     {
         "bus_number": "WB 4 KH 9191",
@@ -407,7 +439,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1000
     },
     # Lumbini to Sikkim Route
     {
@@ -420,7 +453,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 1000
     },
     {
         "bus_number": "NA 6 KH 2525",
@@ -432,7 +466,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.4
+        "rating": 4.4,
+        "price": 1000
     },
     # Sikkim to Lumbini Route
     {
@@ -445,7 +480,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1000
     },
     {
         "bus_number": "SK 4 KH 4747",
@@ -457,7 +493,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.5
+        "rating": 4.5,
+        "price": 1000
     },
     # Additional buses for popular routes
     {
@@ -470,7 +507,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-03",
-        "rating": 4.8
+        "rating": 4.8,
+        "price": 1000
     },
     {
         "bus_number": "BA 11 KH 6969",
@@ -482,7 +520,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-03",
-        "rating": 4.7
+        "rating": 4.7,
+        "price": 1000
     },
     {
         "bus_number": "GA 7 KH 7070",
@@ -494,7 +533,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-03",
-        "rating": 4.9
+        "rating": 4.9,
+        "price": 1000
     },
     {
         "bus_number": "KO 5 KH 8181",
@@ -506,7 +546,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-03",
-        "rating": 4.6
+        "rating": 4.6,
+        "price": 1000
     }
 ]
 
