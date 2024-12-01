@@ -23,8 +23,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.8,
-        "price": 2200
+        "rating": 4.5,
+        "price": 2000
     },
     {
         "bus_number": "BAR 1 KH 2023",
@@ -37,7 +37,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-01",
         "rating": 4.8,
-        "price": 1800
+        "price": 1000
     },
     {
         "bus_number": "BA 1 KH 2023",
@@ -76,7 +76,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-01",
         "rating": 4.8,
-        "price": 1200
+        "price": 1000
     },
     {
         "bus_number": "BA 3 KH 5678",
@@ -89,7 +89,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-02",
         "rating": 3.7,
-        "price": 1100
+        "price": 1000
     },
     {
         "bus_number": "BA 1 KH 9876",
@@ -101,7 +101,7 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": "4.8",
+        "rating": 4.8,
         "price": "2000"
     },
     {
@@ -114,7 +114,7 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": "3.9",
+        "rating": 3.9,
         "price": "1100"
     },
     {
@@ -127,7 +127,7 @@ bus_data = [
         "ac": True,
         "wifi": False,
         "date": "2024-12-02",
-        "rating": "3.4",
+        "rating": 3.4,
         "price": "1200"
     },
     {
@@ -140,7 +140,7 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": "3.8",
+        "rating": 3.8,
         "price": "1300"
     },
     {
@@ -153,7 +153,7 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": "2.9",
+        "rating": 2.9,
         "price": "950"
     },
 {
@@ -251,13 +251,13 @@ bus_data = [
     "bus_number": "GA 8 KH 7890",
     "bus_model": "Volvo 7700",
     "service_company": "Myagdi Yatayat",
-    "driver_name": "Bibhan Rai",
+    "driver_name": "Suman Rai",
     "route": {"start": "Kathmandu", "end": "Pokhara"},
     "seat_capacity": 45,
     "ac": True,
     "wifi": True,
     "date": "2024-12-04",
-    "rating": "4.8",
+    "rating": 4.8,
     "price": "2500"
 },
 {
@@ -270,7 +270,7 @@ bus_data = [
     "ac": True,
     "wifi": False,
     "date": "2024-12-04",
-    "rating": "3.2",
+    "rating": 3.2,
     "price": "1200"
 },
 
@@ -287,8 +287,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.6,
-        "price": 1900
+        "rating": "4.6",
+        "price": 1000
     },
     {
         "bus_number": "GA 2 KH 3456",
@@ -300,8 +300,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.9,
-        "price": 1800
+        "rating": "4.9",
+        "price": 1000
     },
     {
     "bus_number": "BA 18 KH 1234",
@@ -359,7 +359,7 @@ bus_data = [
     "bus_number": "BA 20 KH 8765",
     "bus_model": "Volvo 9400",
     "service_company": "Sajha Yatayat",
-    "driver_name": "Bibhan Magar",
+    "driver_name": "Suman Magar",
     "route": {"start": "Pokhara", "end": "Kathmandu"},
     "seat_capacity": 40,
     "ac": True,
@@ -419,7 +419,7 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": 4.9,
+        "rating": "4.9",
         "price": 2200
     },
     {
@@ -432,8 +432,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 3.7,
-        "price": 1100
+        "rating": "3.7",
+        "price": 1000
     },
     {
     "bus_number": "BA 1 KH 8765",
@@ -445,7 +445,7 @@ bus_data = [
     "ac": True,
     "wifi": True,
     "date": "2024-12-02",
-    "rating": "",
+    "rating": "4.3",
     "price": "1600"
 },
 {
@@ -458,7 +458,7 @@ bus_data = [
     "ac": True,
     "wifi": False,
     "date": "2024-12-02",
-    "rating": "",
+    "rating": "3.0",
     "price": "1400"
 },
 {
@@ -471,20 +471,20 @@ bus_data = [
     "ac": True,
     "wifi": True,
     "date": "2024-12-03",
-    "rating": "",
+    "rating": "3.9",
     "price": "1500"
 },
 {
     "bus_number": "GA 8 KH 2345",
     "bus_model": "Volvo 7700",
     "service_company": "Sajha Yatayat",
-    "driver_name": "Bibhan Shrestha",
+    "driver_name": "Suman Shrestha",
     "route": {"start": "Kathmandu", "end": "Biratnagar"},
     "seat_capacity": 40,
     "ac": True,
     "wifi": True,
     "date": "2024-12-03",
-    "rating": "",
+    "rating": "4.5",
     "price": "1700"
 },
 {
@@ -497,7 +497,7 @@ bus_data = [
     "ac": True,
     "wifi": False,
     "date": "2024-12-03",
-    "rating": "",
+    "rating": "3.0",
     "price": "1450"
 },
 {
@@ -510,7 +510,7 @@ bus_data = [
     "ac": True,
     "wifi": True,
     "date": "2024-12-04",
-    "rating": "",
+    "rating": "4.7",
     "price": "1800"
 },
 {
@@ -523,20 +523,20 @@ bus_data = [
     "ac": True,
     "wifi": False,
     "date": "2024-12-04",
-    "rating": "",
+    "rating": "4.1",
     "price": "1550"
 },
 {
     "bus_number": "BA 9 KH 8765",
     "bus_model": "Volvo 7700",
     "service_company": "Myagdi Yatayat",
-    "driver_name": "Sanshray Chaulagain",
+    "driver_name": "Sanjay Chaulagain",
     "route": {"start": "Kathmandu", "end": "Biratnagar"},
     "seat_capacity": 40,
     "ac": True,
     "wifi": True,
     "date": "2024-12-04",
-    "rating": "",
+    "rating": "4.5",
     "price": "1600"
 },
 
@@ -547,7 +547,7 @@ bus_data = [
         "bus_number": "KO 1 KH 2222",
         "bus_model": "Scania K410",
         "service_company": "Mountain Express",
-        "driver_name": "Bibhan Rai",
+        "driver_name": "Suman Rai",
         "route": {"start": "Biratnagar", "end": "Kathmandu"},
         "seat_capacity": 35,
         "ac": True,
@@ -664,7 +664,7 @@ bus_data = [
     "bus_number": "BA 10 KH 9876",
     "bus_model": "Volvo 7700",
     "service_company": "Sajha Yatayat",
-    "driver_name": "Sanshray Gurung",
+    "driver_name": "Sanjay Gurung",
     "route": {"start": "Biratnagar", "end": "Kathmandu"},
     "seat_capacity": 40,
     "ac": True,
@@ -798,7 +798,7 @@ bus_data = [
     "bus_number": "BA 10 KH 9876",
     "bus_model": "Volvo 7700",
     "service_company": "Sajha Yatayat",
-    "driver_name": "Sanshray Gurung",
+    "driver_name": "Sanjay Gurung",
     "route": {"start": "Kathmandu", "end": "Lumbini"},
     "seat_capacity": 40,
     "ac": True,
@@ -930,7 +930,7 @@ bus_data = [
     "bus_number": "BA 10 KH 9876",
     "bus_model": "Volvo 7700",
     "service_company": "Sajha Yatayat",
-    "driver_name": "Sanshray Gurung",
+    "driver_name": "Sanjay Gurung",
     "route": {"start": "Lumbini", "end": "Kathmandu"},
     "seat_capacity": 40,
     "ac": True,
@@ -1103,7 +1103,7 @@ bus_data = [
     "bus_number": "GA 5 KH 3456",
     "bus_model": "Volvo 9400",
     "service_company": "Sajha Yatayat",
-    "driver_name": "Bibhan Koirala",
+    "driver_name": "Suman Koirala",
     "route": {"start": "Lumbini", "end": "Pokhara"},
     "seat_capacity": 40,
     "ac": True,
@@ -1229,7 +1229,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-02",
         "rating": 3.8,
-        "price": 2300
+        "price": 1000
     },
     {
     "bus_number": "GA 9 KH 1234",
@@ -1361,7 +1361,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-02",
         "rating": 4.7,
-        "price": 2800
+        "price": 1000
     },
     {
     "bus_number": "BA 10 KH 3456",
@@ -1458,7 +1458,7 @@ bus_data = [
     "bus_number": "GA 20 KH 7890",
     "bus_model": "Volvo 9400",
     "service_company": "Sajha Yatayat",
-    "driver_name": "Bibhan Thapa",
+    "driver_name": "Suman Thapa",
     "route": {"start": "Sikkim", "end": "Biratnagar"},
     "seat_capacity": 45,
     "ac": True,
@@ -1473,14 +1473,14 @@ bus_data = [
         "bus_number": "BA 8 KH 2424",
         "bus_model": "Volvo 9400",
         "service_company": "Himalayan Travels",
-        "driver_name": "Sanshray Lama",
+        "driver_name": "Sanjay Lama",
         "route": {"start": "Kathmandu", "end": "Darjeeling"},
         "seat_capacity": 40,
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
         "rating": 4.9,
-        "price": 4000
+        "price": 1000
     },
     {
         "bus_number": "BA 9 KH 3535",
@@ -1492,8 +1492,8 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": 4.8,
-        "price": 3900
+        "rating": 4.6,
+        "price": 1000
     },
     {
     "bus_number": "BA 12 KH 1234",
@@ -1516,7 +1516,7 @@ bus_data = [
     "route": {"start": "Kathmandu", "end": "Darjeeling"},
     "seat_capacity": 45,
     "ac": True,
-    "wifi": True,
+    "wifi": False,
     "date": "2024-12-02",
     "rating": 4.5,
     "price": "3200"
@@ -1573,7 +1573,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-01",
         "rating": 4.8,
-        "price": 2400
+        "price": 1000
     },
     {
         "bus_number": "WB 2 KH 5757",
@@ -1586,7 +1586,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-02",
         "rating": 4.7,
-        "price": 2900
+        "price": 1000
     },
     {
     "bus_number": "BA 12 KH 1234",
@@ -1627,7 +1627,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-01",
         "rating": 4.6,
-        "price": 3500
+        "price": 1000
     },
     {
         "bus_number": "GA 6 KH 7979",
@@ -1640,7 +1640,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-02",
         "rating": 4.5,
-        "price": 3200
+        "price": 1000
     },
     {
     "bus_number": "GA 15 KH 2345",
@@ -1694,7 +1694,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-01",
         "rating": 4.7,
-        "price": 4300
+        "price": 1000
     },
     {
         "bus_number": "WB 4 KH 9191",
@@ -1707,7 +1707,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-02",
         "rating": 4.6,
-        "price": 3900
+        "price": 1000
     },
     {
     "bus_number": "BA 19 KH 2345",
@@ -1787,7 +1787,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-01",
         "rating": 4.5,
-        "price": 4800
+        "price": 1000
     },
     {
         "bus_number": "NA 6 KH 2525",
@@ -1800,7 +1800,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-02",
         "rating": 4.4,
-        "price": 4600
+        "price": 1000
     },
     
     # Sikkim to Lumbini Route
@@ -1815,7 +1815,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-01",
         "rating": 4.6,
-        "price": 4000
+        "price": 1000
     },
     {
         "bus_number": "SK 4 KH 4747",
@@ -1828,7 +1828,7 @@ bus_data = [
         "wifi": True,
         "date": "2024-12-02",
         "rating": 4.5,
-        "price": 5000
+        "price": 1000
     },
     {
     "bus_number": "BA 25 KH 2345",
@@ -2097,7 +2097,7 @@ bus_data = [
     "bus_number": "BA 65 PK 6789",
     "bus_model": "Scania K360",
     "service_company": "Sajha Yatayat",
-    "driver_name": "Bibhan Rathi",
+    "driver_name": "Suman Rathi",
     "route": {"start": "Pokhara", "end": "Biratnagar"},
     "seat_capacity": 48,
     "ac": True,
@@ -2193,7 +2193,7 @@ bus_data = [
     "route": {"start": "Pokhara", "end": "Darjeeling"},
     "seat_capacity": 50,
     "ac": True,
-    "wifi": False,
+    "wifi": True,
     "date": "2024-12-04",
     "rating": 4.6,
     "price": "3700"
@@ -2308,7 +2308,7 @@ bus_data = [
     "bus_number": "BA 91 LB 1234",
     "bus_model": "Volvo 9400",
     "service_company": "Sajha Yatayat",
-    "driver_name": "Sanshray Gurung",
+    "driver_name": "Sanjay Gurung",
     "route": {"start": "Lumbini", "end": "Biratnagar"},
     "seat_capacity": 45,
     "ac": True,
@@ -2334,7 +2334,7 @@ bus_data = [
     "bus_number": "BA 93 LB 2345",
     "bus_model": "Scania K360",
     "service_company": "Myagdi Yatayat",
-    "driver_name": "Bibhan Sharma",
+    "driver_name": "Suman Sharma",
     "route": {"start": "Lumbini", "end": "Biratnagar"},
     "seat_capacity": 48,
     "ac": True,
@@ -2422,74 +2422,12 @@ bus_data = [
         "date": "2024-12-03",
         "rating": 4.6,
         "price": 2200
-    },
-    {
-    "bus_number": "BA 3 KT 4567",
-    "bus_model": "Scania K410",
-    "service_company": "Sajha Yatayat",
-    "driver_name": "Bishal Pandit",
-    "route": {"start": "Kathmandu", "end": "Pokhara"},
-    "seat_capacity": 40,
-    "ac": True,
-    "wifi": True,
-    "date": "2024-12-02",
-    "rating": 4.8,
-    "price": 1250
-},
-{
-    "bus_number": "BA 4 KT 6789",
-    "bus_model": "Volvo 9400",
-    "service_company": "SmartYatru",
-    "driver_name": "Nabin Sharma",
-    "route": {"start": "Kathmandu", "end": "Biratnagar"},
-    "seat_capacity": 45,
-    "ac": True,
-    "wifi": True,
-    "date": "2024-12-02",
-    "rating": 4.5,
-    "price": 1500
-},
-{
-    "bus_number": "BA 5 KT 2345",
-    "bus_model": "Scania K410",
-    "service_company": "Myagdi Yatayat",
-    "driver_name": "Prakash Adhikari",
-    "route": {"start": "Kathmandu", "end": "Lumbini"},
-    "seat_capacity": 38,
-    "ac": True,
-    "wifi": True,
-    "date": "2024-12-02",
-    "rating": 4.9,
-    "price": 1750
-},
-{
-    "bus_number": "BA 6 KT 9123",
-    "bus_model": "Volvo 9400",
-    "service_company": "Dhaulagiri Yatayat",
-    "driver_name": "Ramesh KC",
-    "route": {"start": "Kathmandu", "end": "Darjeeling"},
-    "seat_capacity": 45,
-    "ac": True,
-    "wifi": True,
-    "date": "2024-12-02",
-    "rating": 4.9,
-    "price": 3100
-},
-{
-    "bus_number": "BA 7 KT 5678",
-    "bus_model": "Scania K360",
-    "service_company": "Sajha Yatayat",
-    "driver_name": "Suman Rai",
-    "route": {"start": "Kathmandu", "end": "Pokhara"},
-    "seat_capacity": 42,
-    "ac": True,
-    "wifi": False,
-    "date": "2024-12-02",
-    "rating": 5.0,
-    "price": 1450
-}
-
+    }
 ]
 
+# Convert all ratings to float, handling empty strings
+for bus in bus_data:
+    bus['rating'] = float(bus['rating']) if bus['rating'] else 0.0
+
 # Sort buses by date and rating
-bus_data.sort(key=lambda x: (x['date'], -x['rating'])) 
+bus_data.sort(key=lambda x: (x['date'], -x['rating']))
