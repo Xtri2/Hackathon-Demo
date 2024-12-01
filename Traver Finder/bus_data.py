@@ -287,7 +287,7 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": "4.6",
+        "rating": 4.6,
         "price": 1000
     },
     {
@@ -300,7 +300,7 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": "4.9",
+        "rating": 4.9,
         "price": 1000
     },
     {
@@ -313,7 +313,7 @@ bus_data = [
     "ac": True,
     "wifi": True,
     "date": "2024-12-02",
-    "rating": "4.9",
+    "rating": 4.9,
     "price": "1300"
 },
 {
@@ -326,7 +326,7 @@ bus_data = [
     "ac": True,
     "wifi": False,
     "date": "2024-12-02",
-    "rating": "3.7",
+    "rating": 3.7,
     "price": "1350"
 },
 {
@@ -339,7 +339,7 @@ bus_data = [
     "ac": True,
     "wifi": True,
     "date": "2024-12-03",
-    "rating": "4.7",
+    "rating": 4.7,
     "price": "1500"
 },
 {
@@ -352,7 +352,7 @@ bus_data = [
     "ac": True,
     "wifi": False,
     "date": "2024-12-03",
-    "rating": "4.5",
+    "rating": 4.5,
     "price": "1450"
 },
 {
@@ -365,7 +365,7 @@ bus_data = [
     "ac": True,
     "wifi": True,
     "date": "2024-12-03",
-    "rating": "4.9",
+    "rating": 4.9,
     "price": "1600"
 },{
     "bus_number": "BA 16 KH 5678",
@@ -377,7 +377,7 @@ bus_data = [
     "ac": True,
     "wifi": True,
     "date": "2024-12-04",
-    "rating": "4.9",
+    "rating": 4.4,
     "price": "1700"
 },
 {
@@ -389,8 +389,8 @@ bus_data = [
     "seat_capacity": 45,
     "ac": True,
     "wifi": False,
-    "date": "2024-12-04",
-    "rating": "4.6",
+    "date": "2024-12-01",
+    "rating": 4.6,
     "price": "1800"
 },
 {
@@ -402,8 +402,8 @@ bus_data = [
     "seat_capacity": 38,
     "ac": True,
     "wifi": True,
-    "date": "2024-12-04",
-    "rating": "4.5",
+    "date": "2024-12-01",
+    "rating": 4.4,
     "price": "1650"
 },
 
@@ -419,7 +419,7 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-01",
-        "rating": "4.9",
+        "rating": 4.2,
         "price": 2200
     },
     {
@@ -432,7 +432,7 @@ bus_data = [
         "ac": True,
         "wifi": True,
         "date": "2024-12-02",
-        "rating": "3.7",
+        "rating": 4.6,
         "price": 1000
     },
     {
@@ -445,7 +445,7 @@ bus_data = [
     "ac": True,
     "wifi": True,
     "date": "2024-12-02",
-    "rating": "4.3",
+    "rating": 4.4,
     "price": "1600"
 },
 {
@@ -458,7 +458,7 @@ bus_data = [
     "ac": True,
     "wifi": False,
     "date": "2024-12-02",
-    "rating": "3.0",
+    "rating": 4.6,
     "price": "1400"
 },
 {
@@ -471,7 +471,7 @@ bus_data = [
     "ac": True,
     "wifi": True,
     "date": "2024-12-03",
-    "rating": "3.9",
+    "rating": 3.6,
     "price": "1500"
 },
 {
@@ -484,7 +484,7 @@ bus_data = [
     "ac": True,
     "wifi": True,
     "date": "2024-12-03",
-    "rating": "4.5",
+    "rating": 4.6,
     "price": "1700"
 },
 {
@@ -497,7 +497,7 @@ bus_data = [
     "ac": True,
     "wifi": False,
     "date": "2024-12-03",
-    "rating": "3.0",
+    "rating": 4.2,
     "price": "1450"
 },
 {
@@ -510,7 +510,7 @@ bus_data = [
     "ac": True,
     "wifi": True,
     "date": "2024-12-04",
-    "rating": "4.7",
+    "rating": 4.7,
     "price": "1800"
 },
 {
@@ -523,7 +523,7 @@ bus_data = [
     "ac": True,
     "wifi": False,
     "date": "2024-12-04",
-    "rating": "4.1",
+    "rating": 4.1,
     "price": "1550"
 },
 {
@@ -536,7 +536,7 @@ bus_data = [
     "ac": True,
     "wifi": True,
     "date": "2024-12-04",
-    "rating": "4.5",
+    "rating": 4.5,
     "price": "1600"
 },
 
@@ -2427,7 +2427,7 @@ bus_data = [
 
 # Convert all ratings to float, handling empty strings
 for bus in bus_data:
-    bus['rating'] = float(bus['rating']) if bus['rating'] else 0.0
+    bus['rating'] = bus['rating'] if bus['rating'] else 0.0
 
 # Sort buses by date and rating
 bus_data.sort(key=lambda x: (x['date'], -x['rating']))
